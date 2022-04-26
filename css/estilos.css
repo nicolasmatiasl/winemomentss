@@ -92,7 +92,7 @@
     text-decoration: none;
 }
 .encabezado__redSocial{
-    display: flex
+    display: flex;
     width: 8%;
     height: 50px;
 }
