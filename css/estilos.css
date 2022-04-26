@@ -92,7 +92,7 @@
     text-decoration: none;
 }
 .encabezado__redSocial{
-    display: flex;
+    display: flex;                                           
     width: 8%;
     height: 50px;
 }
@@ -138,7 +138,7 @@ section p{
     }
 }
 .img{
-    width: 95%;
+    width: 94%;
     height: 70%;
 }
 .silder {
@@ -176,7 +176,7 @@ section p{
     text-decoration: none;
 }
 .cards{
-    width: 200px;
+width: 200px;
 border: solid 3px goldenrod;
 overflow: hidden;
 border-radius: 20px;
