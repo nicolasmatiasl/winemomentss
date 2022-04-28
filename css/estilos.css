@@ -92,7 +92,7 @@
     text-decoration: none;
 }
 .encabezado__redSocial{
-    display: flex
+    display: flex;
     width: 8%;
     height: 50px;
 }
@@ -138,8 +138,35 @@ section p{
     }
 }
 .img{
+    width: 94%;
+    height: 70%;
+}
+.silder{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.silder ul{
+    padding: 0;
+    display: flex;
+    width: 300%;
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+.silder li{
     width: 100%;
-    height: auto;
+    list-style: none;
+}
+@keyframes cambio{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    100% {margin-left: -200%;}
 }
 .footer .piePaginas{
     grid-template-areas: piePaginas;

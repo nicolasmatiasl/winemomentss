@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wine Moments</title>
     <link rel="shortcut icon" href="../vinos/icono.jpg"> 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
 
 </head>
 <body>
+<div clss="container-fluid">
     <!--comienzo del header-->
-    <header>
+    <header class="row">
         <div>
             <nav class="nav">
                 <img src="../vinos/icono3.jpg" class="logo">
@@ -34,27 +36,29 @@
         </div>
     
     </header>
-<h1 id="primerh">Wine Moments</h1>
-<div class="portada"></div>
-<section class="parrafo">
+    <h1 id="primerh">Wine Moments</h1>
+    <div class="portada"></div>
     <p>el mejor vino no es necesariamente el mas caro, sino el que se comparte
     George Brassessns.</p>
-    <img  class="img" src="https://www.devinosyvides.com.ar/fotos/devinos-foto626.jpg" alt=""> 
-    <img  class="img" src="https://arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/FIMG35KDHRDRVC6MPXJFEELCCY.jpg" alt="">
-    <img  class="img"src="https://vuelteando.com/wp-content/uploads/2021/04/12.png" alt="">
-</section>
-<h2 class="segunda">nuestra seleccion del mes</h2>
-<div class="contenedor">
-    <article class="cards">
-        <img class="card__imagen" src="../vinos/mendoza.jpg.jpg">
-        <h3 class="card__titulo">vino blanco estancia mendoza chardonay de 750ml</h3>
-        <p class="card__parrafo">$1400</p>
-        <button class="card__boton card__boton--fondoDorado" >comprar</button>
-        <img class="card__imagen" src="../vinos/norton.jpg">
-        <h3 class="card__titulo">vino blanco norton chardonay de 750ml</h3>
-        <p class="card__parrafo">$1600</p>
-        <button class="card__boton card__boton--fondoDorado" >comprar</button>
-    </article>
+    <div class="silder">
+        <ul>
+            <li><img class="img" src="../vinos/paisaje2.jpg" alt=""></li>
+            <li><img class="img" src="../vinos/paisaje3.jpg" alt=""></li>
+            <li><img class="img" src="../vinos/paisaje1.jpg" alt=""></li>
+        </ul>
+    </div>
+    <h2 class="segunda">nuestra seleccion del mes</h2>
+    <div class="contenedor">
+        <article class="cards">
+            <img class="card__imagen" src="../vinos/mendoza.jpg.jpg">
+            <h3 class="card__titulo">vino blanco estancia mendoza chardonay de 750ml</h3>
+            <p class="card__parrafo">$1400</p>
+            <button class="card__boton card__boton--fondoDorado" >comprar</button>
+            <img class="card__imagen" src="../vinos/norton.jpg">
+            <h3 class="card__titulo">vino blanco norton chardonay de 750ml</h3>
+            <p class="card__parrafo">$1600</p>
+            <button class="card__boton card__boton--fondoDorado" >comprar</button>
+        </article>
         <article class="cards">
             <img class="card__imagen" src="../vinos/santana.jpg">
             <h3 class="card__titulo">Santa Ana Sauvignon Blanc 750ml</h3>
@@ -95,19 +99,21 @@
                         <p class="card__parrafo">$1966</p>
                         <button class="card__boton card__boton--fondoDorado" >comprar</button>
                     </article>
-</div>
-<footer class="footer">
-    <h3 class="texto">nueatras redes sociales</h3>
-    <div>
-        <img class="encabezado__redSocial" src="../vinos/logotw.jpg" alt="twitter">
-        <img class="encabezado__redSocial" src="../vinos/logoins.jpg" alt="instagram">
-        <img class="encabezado__redSocial" src="../vinos/logoyoutube.jpg" alt="youtube">
     </div>
-    <nav class="piePaginas">
-        <a href="#">inicio</a>
-        <a href="nosotros.html">sobre nosotros</a>
-        <a href="contacto.html">contacto</a>
-    </nav>
-</footer>
+    <footer class="footer">
+        <h3 class="texto">nueatras redes sociales</h3>
+        <div>
+            <img class="encabezado__redSocial" src="../vinos/logotw.jpg" alt="twitter">
+            <img class="encabezado__redSocial" src="../vinos/logoins.jpg" alt="instagram">
+            <img class="encabezado__redSocial" src="../vinos/logoyoutube.jpg" alt="youtube">
+        </div>
+        <nav class="piePaginas">
+            <a href="#">inicio</a>
+            <a href="nosotros.html">sobre nosotros</a>
+            <a href="contacto.html">contacto</a>
+        </nav>
+    </footer>
+</div>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
