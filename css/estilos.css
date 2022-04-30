@@ -79,7 +79,7 @@
     text-decoration: none;
 }
 .contenedor{
-    display: flex;
+    display:flex;
 }
 .descripcion{
     color: white;
@@ -141,33 +141,6 @@ section p{
     width: 94%;
     height: 70%;
 }
-.silder{
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
-.silder ul{
-    padding: 0;
-    display: flex;
-    width: 300%;
-    animation: cambio 20s infinite;
-    animation-direction: alternate;
-    animation-timing-function: ease-in;
-}
-.silder li{
-    width: 100%;
-    list-style: none;
-}
-@keyframes cambio{
-    0% {margin-left: 0;}
-    20% {margin-left: 0;}
-
-    25% {margin-left: -100%;}
-    45% {margin-left: -100%;}
-
-    50% {margin-left: -200%;}
-    100% {margin-left: -200%;}
-}
 .footer .piePaginas{
     grid-template-areas: piePaginas;
     display: flex;
@@ -177,12 +150,12 @@ section p{
 }
 .cards{
     width: 200px;
-border: solid 3px goldenrod;
-overflow: hidden;
-border-radius: 20px;
-padding: 15px;
-text-align: center;
-margin: 15px;
+    border: solid 3px goldenrod;
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    margin: 15px;
 }
 .card__parrafo{
     color: white;
