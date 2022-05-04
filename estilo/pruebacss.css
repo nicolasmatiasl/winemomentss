@@ -1,0 +1,17 @@
+.cards {
+  width: 190px;
+  border: solid 3px goldenrod;
+  overflow: hidden;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  float: left;
+  justify-content: center; }
+  .cards img {
+    width: 600px;
+    height: 550px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.5); }
+  .cards parrafo {
+    color: white; }

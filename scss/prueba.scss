@@ -1,0 +1,24 @@
+.cards{
+    width: 190px;
+    border: solid 3px goldenrod;
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    float: left;
+    justify-content: center;
+        img{
+            width: 600px;
+            height: 550px;
+            border-radius: 20px;
+            box-shadow: rgba(0,0,0, .5);
+        }
+        parrafo{
+            color: white;
+        }
+}
+h2.p{
+    font: $title-font font-family: Georgia, 'Times New Roman', Times, serif;
+    color: $cool-white
+}
