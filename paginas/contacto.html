@@ -11,12 +11,13 @@
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
+    <div class="fondodecontacto">
     <div clss="container-fluid">
         <header>
             <img src="https://media.istockphoto.com/vectors/initial-letter-diamond-shape-golden-logo-vector-id879053944?k=20&m=879053944&s=170667a&w=0&h=EjBJCPLAhMI5XWxpX_QgU1jo-s1I4krkaI3lLse1iuY=" width="100"   heig="100"  alt="">
             <nav>
                 <ul class="menu-horizontal">
-                    <li><a href="index.html">inicio</a></li>
+                    <li><a href="../index.html">inicio</a></li>
                     <li>
                         <a href="#">Categorias</a>
                         <ul class="menu-vertical">
@@ -32,35 +33,18 @@
                 </ul>
             </nav>
         </header>
-        <h2 class="segunda">contacto</h2>
         <div class="conteiner">
-            <form action="#">
-                <div class="form-group">
-                    <legend id="consulta">envienos su consulta</legend>
-                </div>
-                <div class="form-group">
-                    <lebel class="descripcion" for="nombre">nombre</lebel>
-                    <input type="text" name="nombre" required>
-                </div>
-                <div class="form-group" >   
-                        <lebel class="descripcion" for="nombre">apellido</lebel>
-                        <input type="text" name="apellido" required>
-                </div>
-                <div class="form-group">
-                    <lebel class="descripcion" for="telefono">telefono</lebel>
-                    <input type="text" name="telefono" required>
-                </div>
-                <div class="form-group" >
-                    <label class="descripcion"  for="email">email</label>
-                    <input class="form-control" type="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <textarea class="descripcion" name="mensaje" placeholder="Deje su mensaje aqui"></textarea>
-                    <input type="submit" value="enviar">
-                </div>
+            <form action="#" class="form">
+                <h2 class="segunda">contacto</h2>
+                <input type="text" name="nombre" placeholder="nombre">
+                <input type="text" name="correo" placeholder="correo">
+                <input type="text" name="telefono" placeholder="telefono">
+                <textarea name="mensaje" placeholder="escriba aqui su mensaje"></textarea>
+                    <input type="button" value="ENVIAR" id="boton">
                 
             </form>
         </div>
-    <script src="js/bootstrap.bundle.min.js"></script>
+</div>
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

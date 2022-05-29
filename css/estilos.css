@@ -76,24 +76,33 @@
     display: block;
     color:white;
     padding: 15px 15px 15px 20px;
-    text-decoration: none;
+    text-decoration: none
 }
 .contenedor{
 justify-items: center;
+display: flex;
 }
 .descripcion{
     color: white;
 }
 .piePaginas{
-    background-color:rgb(173, 128, 12) ;
-    padding: 5px;
-    margin-left: 30%;
+    background-color: rgb(173, 128, 12) ;
+    padding: 7px;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    list-style: none;
+}
+.redes-sociales{
+    display: flex;
+    justify-content: space-around;
     text-decoration: none;
 }
 .encabezado__redSocial{
-    width: 5%;
+    width: 10%;
     height: 30px;
     justify-content: center;
+    text-decoration: none;
 }
 body{
     background-color: rgb(0, 0, 0);
@@ -102,7 +111,7 @@ section p{
     color: white;
 }
 .segunda{
-    color:white; text-align: left; text-align: center;
+    color:white; text-align: left; text-align: center; font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #consulta{
     color: white;
@@ -117,7 +126,8 @@ section p{
 .contenedorfoteer{
     background-color: rgb(173, 128, 12);
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
+    text-decoration: none;
 }
 #texto{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -181,4 +191,38 @@ padding: 5px;
 }
 .card__boton--fondoDorado{
     background-color: goldenrod;
+}
+.fondodecontacto{
+    background-image: url(../vinos/bodega.jpg);
+    width: 100%;
+    height: 950px;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+}
+.form{
+    width: 450px;
+    margin: auto;
+    background-color: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+#boton{
+    background-color: saddlebrown;
+    color: white;
+    padding: 20px;
 }
