@@ -127,7 +127,6 @@ section p{
     background-color: rgb(173, 128, 12);
     display: flex;
     justify-content: space-around;
-    text-decoration: none;
 }
 #texto{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -152,7 +151,6 @@ section p{
     display: flex;
     align-items: left;
     justify-content: center;
-    text-decoration: none;
 }
 .cards{
     width: 190px;
